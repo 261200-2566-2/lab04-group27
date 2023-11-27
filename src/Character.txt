@@ -1,0 +1,55 @@
+สำหรับการสร้างตัวละคร rpg ของผมจะแบ่งออกมาเป็น 3 class ดังนี้
+    1. Swordman ก็จะเป็นออกเป็น 2 ระดับคือ
+        สายนี้เน้นพลังโจมตีกายภาพและพลังชีวิต
+        1.1 Knight
+        STR: 10
+        AGI: 2
+        VIT: 5
+        INT: 2
+        DEX: 1
+        LUK: 1
+        Skilled : Slash ทำดาเมจ 20 ดาเมจ ค่าmanaที่ใช้ 2 มานา
+        1.2 Guard
+        STR: 5
+        AGI: 2
+        VIT: 10
+        INT: 2
+        DEX: 1
+        LUK: 1
+        Skilled : Bash 10 ดาเมจ ค่าmanaที่ใช้ 1 มานา
+    2. Mage ก็มี 2 ระดับคือ
+        สายนี้เน้นพลังเวทย์มานาและการร่ายสกิล
+        1.1 Wizard
+        STR: 2
+        AGI: 2
+        VIT: 2
+        INT: 10
+        DEX: 5
+        LUK: 1
+        Skilled : Fire ball ทำดาเมจ 15 ดาเมจ ค่าmanaที่ใช้ 2 มานา
+        1.2 Sage
+        STR: 2
+        AGI: 2
+        VIT: 2
+        INT: 8
+        DEX: 7
+        LUK: 1
+        Skilled : Nature Whisper ทำดาเมจ 20 ดาเมจ ค่าmanaที่ใช้ 4 มานา
+    3. Archer ก็มี 2 ระดับคือ
+        เน้นการโจมตีคริติคอลและความแม่นยำ
+        1.1 Hunter
+        STR: 1
+        AGI: 5
+        VIT: 2
+        INT: 2
+        DEX: 10
+        LUK: 10
+        Skilled : Long shot ทำดาเมจ 20 ดาเมจ ค่าmanaที่ใช้ 2 มานา
+        1.2 Ranger
+        STR: 1
+        AGI: 10
+        VIT: 2
+        INT: 2
+        DEX: 5
+        LUK: 10
+        Skilled : Power shot ทำดาเมจ 30 ดาเมจ ค่าmanaที่ใช้ 5 มานา
