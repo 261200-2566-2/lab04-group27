@@ -1,0 +1,67 @@
+Character มี 4 classแต่ละ class แบ่งออกเป็น 3 class ย่อย ดังนี้
+1. Melee fighter เน้นการโจมตีกายภาพและพลังชีวิต
+    1.1 Knight เน้นการโจมตีกายภาพและพลังชีวิตเท่าๆกัน
+    hp = 50
+    atk = 10
+    def = 10
+    mana = 10
+    speed = 10
+    1.2 Berserk เน้นหนักไปที่การโจมตี
+    hp = 30
+    atk = 20
+    def = 5
+    mana = 5
+    speed = 20
+2. Mage เน้นการโจมตีเวทย์และมานา
+    2.1 Wizard เน้นการโจมตีเวทย์
+    hp = 30
+    atk = 15
+    def = 5
+    mana = 20
+    speed = 10
+    2.2 Sage เน้นการป้องกัน
+    hp = 40
+    atk = 10
+    def = 15
+    mana = 30
+    speed = 5
+
+3. Range fighter การโจมตีระยะไกล รวดเร็ว
+    3.1 Hunter เน้นโจมตีไว
+    hp = 30
+    atk = 10
+    def = 10
+    mana = 10
+    speed = 25
+    3.2 Sniper เน้นตีแรง
+    hp = 25
+    atk = 30
+    def = 10
+    mana = 15
+    speed = 5
+
+4. Assassin เน้นรวดเร็วและลอบโจมตี
+    4.1 Thief เน้นความรวดเร็ว
+    hp = 30
+    atk = 15
+    def = 5
+    mana = 15
+    speed = 30
+    4.2 Killer เน้นการโจมตี
+    hp = 25
+    atk = 20
+    def = 10
+    mana = 15
+    speed = 20
+
+item ทำหน้าที่เพิ่ม stat ให้ตัวละคร
+1. sword
+    + 10 atk , - 3 speed
+2. shield
+    + 10 def , - 5 speed
+3. armor
+    + 5 def , + 5 hp , - 4 speed
+4. boots
+    + 6 speed , + 2 def
+5. gloves
+  + 3 def, + 2 speed , + 5 hp , - 2 speed

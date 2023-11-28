@@ -1,0 +1,15 @@
+RpgCharacter interface
+
+Melee fighter interface
+    attack;
+    guard;
+Mage interface;
+    cast;
+    protect;
+Range fighter interface
+    shoot;
+    evade;
+Assassin interface
+    stab;
+    roll;
+
