@@ -54,14 +54,17 @@ Character มี 4 classแต่ละ class แบ่งออกเป็น 
     mana = 15
     speed = 20
 
-item ทำหน้าที่เพิ่ม stat ให้ตัวละคร
-1. sword
+item ทำหน้าที่เพิ่ม stat ให้ตัวละคร แบ่งออกเป็น 2 class ตามฟังก์ชันการทำงาน ดังนี้
+1. attackEquipment เป็นอุปกรณ์ที่ใส่แล้วเพิ่มพลังโจมตี
+1.1 sword
     + 10 atk , - 3 speed
-2. shield
+1.2 Axe
+    + 15 atk , - 6 speed
+
+2. defEquipment เป็นอุปกรณ์ที่ใส่แล้วเพิ่มพลังป้องกัน
+2.1 shield
     + 10 def , - 5 speed
-3. armor
-    + 5 def , + 5 hp , - 4 speed
-4. boots
+2.2 boots
     + 6 speed , + 2 def
-5. gloves
-  + 3 def, + 2 speed , + 5 hp , - 2 speed
+2.3 gloves
+    + 4 def, + 2 speed
