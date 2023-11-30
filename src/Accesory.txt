@@ -1,0 +1,21 @@
+Accessory interface;
+
+attackEquipment interface
+sword interface
+    + 10 atk;
+    - 3 speed;
+Axe interface
+    + 15 atk;
+    - 6 speed;
+
+
+defEquipment interface
+shield interface
+      + 10 def;
+      - 5 speed;
+ิboots interface
+      + 6 speed;
+      + 2 def;
+gloves intface
+      + 4 def;
+      2 speed;
